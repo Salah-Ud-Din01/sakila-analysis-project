@@ -2,7 +2,7 @@ import dlt
 from dlt.sources.sql_database import sql_database
 from pathlib import Path
 
-DATA_PATH = Path(__file__).parent.parent / "data"  # <-- parent.parent to get from scripts/ to project root, then data/
+DATA_PATH = Path(__file__).parent.parent / "data"  
 SQLITE_PATH = DATA_PATH / "sqlite-sakila.db"
 DUCKDB_PATH = DATA_PATH / "sakila.duckdb"
 
